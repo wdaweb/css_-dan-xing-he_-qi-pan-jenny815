@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow-y: hidden;
+    }
+
+    .container {
+      width: 570px;
+      height: 630px;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .row {
+      width: 480px;
+      height: 560px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .col {
+      width: 100%;
+      height: 60px;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .cube {
+      width: 60px;
+      height: 60px;
+      border: 1px solid black;
+    }
+
+    .col1 {
+      width: 100%;
+      height: 60px;
+      /* border: 1px solid black; */
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    .container2 {
+      width: 570px;
+      height: 630px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+    }
+
+    .circle1 {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #fff;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .col2 {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      position: relative;
+      top: -2%;
+    }
+
+    .col3 {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      position: relative;
+      top: -3%;
+    }
+
+    .col4 {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      position: relative;
+      top: 3%;
+    }
+
+    .col5 {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      position: relative;
+      top: 3%;
+    }
+
+    .col6 {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      position: relative;
+    }
+
+    .a {
+      width: 480px;
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .box {
+      width: 60px;
+      height: 650px;
+      position: relative;
+      left: -5%;
+      writing-mode: vertical-lr;
+
+    }
+
+    .box2 {
+      width: 60px;
+      height: 650px;
+      position: relative;
+      writing-mode: vertical-lr;
+      left: 5%;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <h1>棋盤裡，車無輪，馬無韁，叫聲將軍堤防堤防</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+      <div class="col">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+      <div class="col">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+      <div class="col">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+      <div class="col">
+        <div class="a">
+          <div class="b">
+            <h1>楚河</h1>
+          </div>
+          <div class="c">
+            <h1>漢界</h1>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+      <div class="col">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+      <div class="col">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+      <div class="col">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="col1">
+      <div class="circle1">
+        <h1>車</h1>
+      </div>
+      <div class="circle1">
+        <h1>馬</h1>
+      </div>
+      <div class="circle1">
+        <h1>象</h1>
+      </div>
+      <div class="circle1">
+        <h1>士</h1>
+      </div>
+      <div class="circle1">
+        <h1>將</h1>
+      </div>
+      <div class="circle1">
+        <h1>士</h1>
+      </div>
+      <div class="circle1">
+        <h1>象</h1>
+      </div>
+      <div class="circle1">
+        <h1>馬</h1>
+      </div>
+      <div class="circle1">
+        <h1>車</h1>
+      </div>
+    </div>
+    <div class="col1"></div>
+    <div class="col2">
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>包</h1>
+      </div>
+      <div class="circle2"></div>
+      <div class="circle2"></div>
+      <div class="circle2"></div>
+      <div class="circle2"></div>
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>包</h1>
+      </div>
+      <div class="circle2"></div>
+    </div>
+    <div class="col3">
+      <div class="circle1">
+        <h1>卒</h1>
+      </div>
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>卒</h1>
+      </div>
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>卒</h1>
+      </div>
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>卒</h1>
+      </div>
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>卒</h1>
+      </div>
+    </div>
+    <div class="col1"></div>
+    <div class="col4">
+      <div class="circle1">
+        <h1>兵</h1>
+      </div>
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>兵</h1>
+      </div>
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>兵</h1>
+      </div>
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>兵</h1>
+      </div>
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>兵</h1>
+      </div>
+
+    </div>
+    <div class="col5">
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>炮</h1>
+      </div>
+      <div class="circle2"></div>
+      <div class="circle2"></div>
+      <div class="circle2"></div>
+      <div class="circle2"></div>
+      <div class="circle2"></div>
+      <div class="circle1">
+        <h1>炮</h1>
+      </div>
+      <div class="circle2"></div>
+    </div>
+    <div class="col1"></div>
+    <div class="col6">
+      <div class="circle1">
+        <h1>車</h1>
+      </div>
+      <div class="circle1">
+        <h1>馬</h1>
+      </div>
+      <div class="circle1">
+        <h1>像</h1>
+      </div>
+      <div class="circle1">
+        <h1>仕</h1>
+      </div>
+      <div class="circle1">
+        <h1>帥</h1>
+      </div>
+      <div class="circle1">
+        <h1>仕</h1>
+      </div>
+      <div class="circle1">
+        <h1>相</h1>
+      </div>
+      <div class="circle1">
+        <h1>馬</h1>
+      </div>
+      <div class="circle1">
+        <h1>車</h1>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="box2">
+    <h1>圖畫裡，龍不吟，虎不嘯，小小書僮可笑可笑</h1>
+  </div>
+</body>
+
+</html>
